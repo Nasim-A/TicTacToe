@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.board {
+	display: grid;
+	grid-template-columns: repeat(3, 9rem);
+	grid-row-gap: 1rem;
+	place-items: center;
+	justify-content: center;
+}
